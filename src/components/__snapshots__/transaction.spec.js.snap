@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transaction component should render same snapshot 1`] = `
+<div
+  className="transaction"
+>
+  <div
+    className="person"
+  >
+    <label
+      className="name"
+    >
+      ZOPA
+    </label>
+    <label
+      className="email"
+    >
+      zopa@zopa.de
+    </label>
+  </div>
+  <div
+    className="amount"
+  >
+    <label>
+      £5,000.0000
+    </label>
+  </div>
+</div>
+`;

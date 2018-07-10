@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'Alverata-Black';
+  src: url('../assets/Alverata-Black.otf') format('opentype');
+}
+
+$form-field-width: 80%;
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 480px;
+  width: 100%;
+
+  h1, h3 {
+    font-family: 'Alverata-Black';
+    margin-bottom: 10%;
+  }
+
+  form {
+    height: 500px;
+  }
+
+  .send-money {
+    position: relative;
+    height: 500px;
+    min-width: 400px;
+    width: 35%;
+    padding: 5%;
+    border-right: 1px solid #d3d3d3;
+
+    .btn-send {
+      position: absolute;
+      bottom: 30px;
+      width: $form-field-width;
+      border-radius: 15px;
+      border-color: blue;
+      background-color: blue;
+      color: white;
+      height: 40px;
+    }
+
+    input {
+      width: $form-field-width;
+    }
+  }
+
+  .transactions {
+    height: 500px;
+    min-width: 400px;
+    width: 35%;
+    padding: 5%;
+
+    .transaction {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 95%;
+      border-bottom: 1px solid gray;
+      margin: 0 auto;
+      padding-bottom: 15px;
+      padding-top: 15px;
+
+      .person {
+
+        label {
+          display: block;
+          font-size: 1.2em;
+        }
+
+        .email {
+          font-size: 0.8em;
+        }
+      }
+
+      .amount {
+        text-align: right;
+        font-weight: bold;
+      }
+    }
+
+    [class~='transaction']:last-of-type  {
+      border-bottom: none;
+    }
+
+    .overview {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 25%;
+
+      span {
+        label {
+          display: block;
+          text-align: right;
+        }
+      }
+
+      .account-chart {
+        height: 90px;
+        width: 90px;
+        margin-right: 10%;
+        margin-left: 10%;
+      }
+    }
+
+    .detail {
+      height: 70%;
+      overflow: auto;
+    }
+  }
+}
+
+.ti {
+  margin-top: 30px;
+
+  div {
+    position: relative;
+
+    span {
+      position: absolute;
+      left: 0px;
+      bottom: 20%;
+      font-weight: bold;
+    }
+  }
+
+  .ti-lbl {
+    display: block;
+    margin-bottom: 20px;
+    width: $form-field-width;
+  }
+
+  .ti-field {
+    display: block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: $form-field-width;
+    height: 2em;
+    padding: 0 5px;
+
+    &.currency {
+      padding-left: 10px;
+    }
+
+    &.err {
+      border-bottom: 1px solid red;
+    }
+
+    &:focus {
+      border: none;
+    }
+  }
+
+  .err-msg {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: red;
+  }
+}

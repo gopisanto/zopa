@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountChart component should render correctly based on totalSent and totalLeft amount. 1`] = `
+<div
+  className="account-chart"
+>
+  <svg
+    viewBox="0 0 42 42"
+  >
+    <circle
+      cx={21}
+      cy={21}
+      fill="none"
+      r={15.915494309189533}
+      stroke="#ECE3EB"
+      strokeDasharray="2 98"
+      strokeDashoffset={0}
+      strokeWidth={10}
+    />
+    <circle
+      cx={21}
+      cy={21}
+      fill="none"
+      r={15.915494309189533}
+      stroke="#FDB424"
+      strokeDasharray="98 2"
+      strokeDashoffset={98}
+      strokeWidth={10}
+    />
+  </svg>
+</div>
+`;

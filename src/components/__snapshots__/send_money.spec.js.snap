@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SendMoney form component should render 1`] = `
+<div
+  className="send-money"
+>
+  <form
+    autoComplete="none"
+    onSubmit={[Function]}
+  >
+    <h1>
+      Send money
+    </h1>
+    <div
+      className="ti"
+    >
+      <label
+        className="ti-lbl"
+        htmlFor={undefined}
+      >
+        Name
+      </label>
+      <div>
+        <input
+          autoComplete="none"
+          className="ti-field"
+          name="name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="ti"
+    >
+      <label
+        className="ti-lbl"
+        htmlFor={undefined}
+      >
+        Email address
+      </label>
+      <div>
+        <input
+          autoComplete="none"
+          className="ti-field"
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="ti"
+    >
+      <label
+        className="ti-lbl"
+        htmlFor={undefined}
+      >
+        Amount
+      </label>
+      <div>
+        <span>
+          £
+        </span>
+        <input
+          autoComplete="none"
+          className="ti-field currency"
+          name="amount"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="currency"
+          value=""
+        />
+      </div>
+    </div>
+    <input
+      className="btn-send"
+      type="submit"
+      value="Send"
+    />
+  </form>
+</div>
+`;

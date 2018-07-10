@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transactions component should render same snapshot when no transactions 1`] = `
+<div
+  className="transactions"
+>
+  <h1>
+    My account
+  </h1>
+  <div
+    className="overview"
+  >
+    <span>
+      <label>
+        £0.0000
+      </label>
+      <label>
+        total sent
+      </label>
+    </span>
+    <div
+      className="account-chart"
+    >
+      <svg
+        viewBox="0 0 42 42"
+      >
+        <circle
+          cx={21}
+          cy={21}
+          fill="none"
+          r={15.915494309189533}
+          stroke="#FDB424"
+          strokeDasharray="100 0"
+          strokeDashoffset={100}
+          strokeWidth={10}
+        />
+      </svg>
+    </div>
+    <span>
+      <label>
+        £100,000.0000
+      </label>
+      <label>
+        left available
+      </label>
+    </span>
+  </div>
+  <div
+    className="detail"
+  >
+    <h3>
+      Transactions
+    </h3>
+    <label
+      className="lbl-no-transactions"
+    >
+      No transactions.
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Transactions component should render same snapshot when some transactions 1`] = `
+<div
+  className="transactions"
+>
+  <h1>
+    My account
+  </h1>
+  <div
+    className="overview"
+  >
+    <span>
+      <label>
+        £5,500.0000
+      </label>
+      <label>
+        total sent
+      </label>
+    </span>
+    <div
+      className="account-chart"
+    >
+      <svg
+        viewBox="0 0 42 42"
+      >
+        <circle
+          cx={21}
+          cy={21}
+          fill="none"
+          r={15.915494309189533}
+          stroke="#ECE3EB"
+          strokeDasharray="5.5 94.5"
+          strokeDashoffset={0}
+          strokeWidth={10}
+        />
+        <circle
+          cx={21}
+          cy={21}
+          fill="none"
+          r={15.915494309189533}
+          stroke="#FDB424"
+          strokeDasharray="94.5 5.5"
+          strokeDashoffset={94.5}
+          strokeWidth={10}
+        />
+      </svg>
+    </div>
+    <span>
+      <label>
+        £94,500.0000
+      </label>
+      <label>
+        left available
+      </label>
+    </span>
+  </div>
+  <div
+    className="detail"
+  >
+    <h3>
+      Transactions
+    </h3>
+    <div
+      className="transaction"
+    >
+      <div
+        className="person"
+      >
+        <label
+          className="name"
+        >
+          ZOPA
+        </label>
+        <label
+          className="email"
+        >
+          zopa@gmail.com
+        </label>
+      </div>
+      <div
+        className="amount"
+      >
+        <label>
+          £1,000.0000
+        </label>
+      </div>
+    </div>
+    <div
+      className="transaction"
+    >
+      <div
+        className="person"
+      >
+        <label
+          className="name"
+        >
+          ZOPA1
+        </label>
+        <label
+          className="email"
+        >
+          zopa@zopa.de
+        </label>
+      </div>
+      <div
+        className="amount"
+      >
+        <label>
+          £4,500.0000
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;

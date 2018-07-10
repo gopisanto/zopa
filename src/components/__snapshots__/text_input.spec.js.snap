@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput component should render with error message 1`] = `
+<div
+  className="ti"
+>
+  <label
+    className="ti-lbl"
+    htmlFor="name"
+  >
+    Name
+  </label>
+  <div>
+    <input
+      autoComplete="none"
+      className="ti-field err"
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <span
+    className="err-msg"
+  >
+    This field is required.
+  </span>
+</div>
+`;
+
+exports[`TextInput component should render without error 1`] = `
+<div
+  className="ti"
+>
+  <label
+    className="ti-lbl"
+    htmlFor="name"
+  >
+    Name
+  </label>
+  <div>
+    <input
+      autoComplete="none"
+      className="ti-field"
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value="ZOPA"
+    />
+  </div>
+</div>
+`;
